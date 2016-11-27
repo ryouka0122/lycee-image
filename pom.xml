@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+
+	<!--
+		==================================================================
+		==== プロパティ
+		==================================================================
+	-->
+
+	<!--
+		==================================================================
+		==== モジュール情報
+		==================================================================
+	-->
+	<modelVersion>4.0.0</modelVersion>
+
+	<groupId>lycee.framework</groupId>
+	<artifactId>lycee-image</artifactId>
+	<version>1.0.0</version>
+
+	<!--
+		==================================================================
+		==== 親pom情報
+		==================================================================
+	<parent>
+		<groupId>lycee.framework</groupId>
+		<artifactId>lycee-superpom</artifactId>
+		<version>1.0.0-SNAPSHOT</version>
+	</parent>
+	-->
+
+	<!--
+		==================================================================
+		==== リモートリポジトリ情報
+		==================================================================
+	-->
+
+
+
+	<!--
+		==================================================================
+		==== 依存ライブラリ
+		==================================================================
+	<dependencies>
+		<dependency>
+			<groupId>lycee.framework</groupId>
+			<artifactId>lycee-core</artifactId>
+			<version>${lyceeVersion}</version>
+		</dependency>
+	</dependencies>
+	-->
+
+	<dependencyManagement>
+		<dependencies>
+
+		<!--
+			==============================================================
+			ライブラリ
+			<dependency>
+				<groupId>lycee.framework</groupId>
+				<artifactId>lycee-core</artifactId>
+				<version>${lyceeVersion}</version>
+			</dependency>
+		-->
+		</dependencies>
+	</dependencyManagement>
+</project>
