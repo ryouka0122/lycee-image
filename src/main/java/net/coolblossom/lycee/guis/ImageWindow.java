@@ -1,4 +1,4 @@
-package net.coolblossom.lycee.gdi;
+package net.coolblossom.lycee.guis;
 
 import java.awt.Canvas;
 import java.awt.Color;

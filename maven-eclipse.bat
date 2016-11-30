@@ -1,7 +1,6 @@
-@echo off
+
+%~d0
 
 cd /d %~dp0
 
-mvn eclipse:clean eclipse:eclipse
-
-pause
+cmd /k mvn -e eclipse:clean eclipse:eclipse
