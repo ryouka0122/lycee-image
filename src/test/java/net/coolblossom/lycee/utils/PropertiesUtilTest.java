@@ -22,6 +22,12 @@ public class PropertiesUtilTest {
 		try {
 			LyceeProperties props = PropertiesUtil.load(test_path);
 
+			System.out.println("== LyceeProperties#get ==================================");
+			for(Object key : props.keySet()) {
+				System.out.println(key+":"+props.get(key.toString()));
+			}
+
+			System.out.println("== LyceeProperties#getProperty ==================================");
 			for(Object key : props.keySet()) {
 				System.out.println(key+":"+props.getProperty(key.toString()));
 			}
